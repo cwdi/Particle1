@@ -85,7 +85,7 @@ void Particle::draw(){
 			fabs(time - lifeTime/2), 0, lifeTime/2, 3, 1 );
 
 		//Compute color
-		ofColor color = ofColor::red;
+		ofColor color = ofColor::white;
 		float hue = ofMap( time, 0, lifeTime, 128, 255 );
 		color.setHue( hue );
 		ofSetColor( color );
